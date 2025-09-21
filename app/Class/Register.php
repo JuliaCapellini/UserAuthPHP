@@ -1,6 +1,6 @@
 <?php
 
-class User.php 
+class Register
 {  
     private int $id;
     private string $name;
@@ -25,7 +25,36 @@ class User.php
         $this->id = $id;
     }
 
+    public function getName(): string
+    {
+        return $this->name;
+    }
+
+    public function setName(string $name): void
+    {
+        $this->name = $name;
+    }
+
+    public function getEmail(): string
+    {
+        return $this->email;
+    }
+    
+    public function setEmail(string $email): void
+    {
+        $this->email = $email;
+    }
+
+    public function getSenha(): float
+    {
+        return $this->senha;
+    }
+
+    public function setSenha(float $senha): void
+    {
+        $this->senha = $senha;
+    }
     
 }
 
-
+?>
