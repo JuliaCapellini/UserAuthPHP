@@ -1,0 +1,10 @@
+# Ignorar configurações de IDE
+.idea/
+
+# Ignorar dados do MySQL
+mysql_data/
+
+# Ignorar arquivos temporários
+*.sock
+*.log
+*.tmp
